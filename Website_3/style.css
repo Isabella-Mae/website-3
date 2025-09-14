@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(241, 236, 218);
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+nav a {
+  font-family: "Titillium", system-ui, -apple-system, "Segoe UI", Roboto, Arial,
+    sans-serif;
+  font-size: 20px;
+  margin-block: 10px;
+  color: rgb(91, 61, 52);
+  text-decoration: none; /* fjerner understregning */
+  transition: color 0.3s ease; /* smooth farveskift */
+}
+
+nav a:hover {
+  color: rgb(216, 67, 18); /* bliver rød når musen er over */
+}
+
+@font-face {
+  font-family: "Titillium";
+  src: url("Bungee,Titillium_Web/Titillium_Web/TitilliumWeb-Regular.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  color: rgb(91, 61, 52);
+}
+
+@font-face {
+  font-family: "Titillium";
+  src: url("Bungee,Titillium_Web/Titillium_Web/TitilliumWeb-Bold.ttf")
+    format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  color: rgb(91, 61, 52);
+}
+
+p {
+  font-family: "Titillium", system-ui, -apple-system, "Segoe UI", Roboto, Arial,
+    sans-serif;
+  font-size: 20px;
+  margin-block: 10px;
+  color: rgb(91, 61, 52);
+}
+footer {
+  font-family: "Titillium", system-ui, -apple-system, "Segoe UI", Roboto, Arial,
+    sans-serif;
+  font-size: 10px;
+  margin-block: 10px;
+  color: rgb(91, 61, 52);
+  align-items: baseline;
+}
+
+a {
+  font-family: "Titillium", system-ui, -apple-system, "Segoe UI", Roboto, Arial,
+    sans-serif;
+  font-size: 20px;
+  margin-block: 10px;
+  color: rgb(91, 61, 52);
+}
+
+h1 {
+  font-family: "Titillium", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  margin-block: 10px;
+  color: rgb(216, 67, 18);
+}
+
+h2 {
+  font-family: "Titillium", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  margin-block: 10px;
+  color: rgb(216, 67, 18);
+}
+ul {
+  font-family: "Titillium", system-ui, -apple-system, "Segoe UI", Roboto, Arial,
+    sans-serif;
+  font-size: 15px;
+  margin-block: 5px;
+  color: rgb(216, 67, 18);
+}
+
+dl {
+  font-family: "Titillium", system-ui, -apple-system, "Segoe UI", Roboto, Arial,
+    sans-serif;
+  font-size: 15px;
+  margin-block: 5px;
+  color: rgb(216, 67, 18);
+}
+
+main {
+  padding: 10px;
+}
+.grid_1-1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.box1 {
+  grid-column: span 2;
+}
+.box4 {
+  grid-column: span 2;
+}
+
+.box5 {
+  grid-column: span 2;
+}
+.box6 {
+  grid-column: span 2;
+}
