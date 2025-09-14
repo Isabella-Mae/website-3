@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 20px 16px;
+  text-align: center;
+  padding: 20px;
+}
+
+/* menu */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+main {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 16px;
+  gap: 40px;
+}
+/*media query til desktop*/
+@media (min-width: 760px) {
+  /* Forside */
+  .grid_2-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .order {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  /* min computer */
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    gap: 30px;
+  }
+
+  /* Operativsystemer */
+  .grid_5-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  .grid_2-3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .grid_3-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  /* komponenter  */
+  .grid_1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+  }
+
+  /* galleri */
+  .grid_1-1-1-1 {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .grid_1-1-1-1 > img {
+    object-fit: cover;
+    align-self: stretch;
+  }
+
+  .box1 {
+    grid-row: span 2;
+  }
+
+  .box5 {
+    grid-column: span 1;
+  }
+
+  .box6 {
+    grid-column: span 3;
+  }
+  .flex_col {
+    display: flex;
+    flex-direction: column;
+  }
+  .flex_col :last-child {
+    margin-top: auto;
+  }
+}
+
+/* Mobil */
+/* Forside */
+/* min computer */
+/* Operativsystemer */
+/* komponenter  */
+
+/* galleri */
